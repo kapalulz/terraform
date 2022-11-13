@@ -1,2 +1,2 @@
 # terraform
-practise and tests using terraform
+Terraform + AWS
