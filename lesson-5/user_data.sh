@@ -12,7 +12,7 @@ cat <<EOF > /var/www/html/index.html
 <html>
 <body bgcolor="black">
 <h2>TextTexText from: $myip <font color="red"> TextTexText </font></h2><br>
-<font color="green">Sasha2 <font color="aqua">$myip<br><br>
+<font color="green">123321 <font color="aqua">$myip<br><br>
 
 
 <font color="magenta">
