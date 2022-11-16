@@ -5,9 +5,9 @@ sudo apt install apache2 -y
 
 myip=`curl http://169.254.169.254/latest/meta-data/local-ipv4`
 
-sudo mkdir /var/www
-sudo mkdir /var/www/html
-sudo touch /var/www/html/index.html
+#sudo mkdir /var/www
+#sudo mkdir /var/www/html
+#sudo touch /var/www/html/index.html
 cat <<EOF > /var/www/html/index.html
 <html>
 <body bgcolor="black">
