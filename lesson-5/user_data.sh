@@ -11,7 +11,7 @@ sudo touch /var/www/html/index.html
 cat <<EOF > /var/www/html/index.html
 <html>
 <body bgcolor="black">
-<h2>Glory to Ukraine from: $myip <font color="red"> LoraBigPopka </font></h2><br>
+<h2>TextTexText from: $myip <font color="red"> TextTexText </font></h2><br>
 <font color="green">Sasha2 <font color="aqua">$myip<br><br>
 
 
