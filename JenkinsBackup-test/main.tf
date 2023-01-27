@@ -1,6 +1,4 @@
 provider "aws" {
-   // access_key = "AKIAZYSWY6T2DMCP3PUI"
-   // secret_key = "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"
     region         =   "us-east-1"
 } 
 
@@ -72,26 +70,3 @@ output "instance_public_ip" {
       aws_eip.web_eip
   ]
 }
-
-/*data "aws_eip" "by_public_ip" {
-  public_ip = aws_instance.website.public_ip
-      depends_on = [
-      aws_eip.web_eip
-  ]
-}*/
-
-/*output "by_public_ip" {
-   value  = data.aws_eip.by_public_ip.public_dns
-       depends_on = [
-      aws_eip.web_eip
-  ]
-}*/
-
-/*  data "aws_ami" "latest_ubuntu" {
-  owners = ["099720109477"]
-  most_recent = true
-  filter {
-    name = "name"
-    values = ["ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-*"]
-  }
-} */
