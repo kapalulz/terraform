@@ -7,7 +7,7 @@ provider "aws" {
 resource "aws_default_vpc" "default" {} # This need to be added since AWS Provider v4.29+ to get VPC id
 
   resource "aws_eip" "my_static_ip"{
-    instance = aws_instance.my_webserver.id #Creating static IP - $$$ - ?
+    instance = aws_instance.my_webserver.id # Creating elastic/static IP
   }
 
 resource "aws_instance" "my_webserver" {
