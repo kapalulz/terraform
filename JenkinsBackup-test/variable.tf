@@ -7,7 +7,7 @@ variable "region" {
 variable "ssh_key_pair" {
   type = string
   description = "SSH key"
-  default = "ssss"
+  default = "SSH-key"
 }
 
 variable "instance_type" {
