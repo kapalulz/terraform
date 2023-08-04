@@ -1,5 +1,6 @@
 # Terraform + AWS
 
+main (EC2, RDS, ELB, NAT, Auto Scaling, Internet Gateway, CloudFront):
 
 <p align="center">
 
